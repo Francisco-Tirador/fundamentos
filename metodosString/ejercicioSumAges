@@ -1,0 +1,10 @@
+function suma(extraccion){             // funcion para cualquier palabra
+const tomaDfrase=extraccion.lastIndexOf(" ")//.lastIndexOf() toma el ulmito y primer caracter señalo
+
+const corte=extraccion.substring(0,tomaDfrase )//.substring() extrae con la palabra delimitada con las pocisiomes 
+
+const tomaDfrase1=corte.lastIndexOf(" ")
+const word=corte.substring(tomaDfrase1+1)
+console.log(word)
+}
+suma("hola mellamo Raul como tortillas 465 diarias")

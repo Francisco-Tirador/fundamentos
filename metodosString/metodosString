@@ -1,0 +1,92 @@
+//metodos String  
+
+
+//   LENGTH-da la longitud de las cadenas en numero 
+function exer(number){//7777
+
+const exemple1="Hola me llamo Rey y tengo 20 años "
+console.log(exemple1.length) }
+
+exer()
+
+//2-toUpperCase()-Combierte todos los caracteres en mayusculas y los devuelve; no cambia la estructura
+function exer2(text){//777777777
+
+const exr1="hola me llamo rey y tengo 23 años(2) "
+const mayusExer1=exr1.toUpperCase()
+console.log(mayusExer1)}
+
+exer2()
+
+//3-toLowerCase()-Combierte todos los carcateres en MINUSCULAs y los devuelve; no cambia la estructura 
+function exer3(text){
+    const exer2="HOLA ME LLAMO REY Y TEGO 23 AÑOS(3)"
+    const minExer2= exer2.toLowerCase()
+    console.log(minExer2)
+}
+exer3()
+
+//4-Trim()- elimina los espacios en blanco y alfinal de la cadena //actualiza la cadena 
+function exer4(text){
+    const exer4="                  Hola me llamo Rey y tengo 20 años(4)                "
+    console.log(exer4.trim())
+}
+
+exer4()
+
+//5-charAt(index//nota es el num del carcater que va a devolver )-duvuleve el caracter  en el index dado 
+function exer5(text){
+    const exer5="Hola me llamo Rey y tengo 20 años"
+    console.log(exer5.charAt(20))
+    console.log(exer5.charAt(15))
+}
+
+exer5()
+
+//6-charCodeAt(index(num de caracter))-devuelve el carcater de codigo ASC (nota no entiendo para que sirve xd )
+
+function exer6(num){
+    const exer6="Hola me llamo Rey y tengo 20 años "
+    console.log(exer6.charCodeAt(20))
+}
+exer6()
+//7-slice(utiliza principio y fin)-devulve la subcadena definidendo la posicion(devuelve solamente la cadena delimitandose comotu lo hyas querido)
+function exer7(text){
+    const exer7="Hola me llamo Rey y tengo 20 años "
+    console.log(exer7.slice(4,15))//se delimitara el principio y el fin con la pocision de el caracter// tambien se puede definr el inicio y por defecto el final sera el ultimo carcter
+}
+
+exer7()
+
+//8-substr-()- es similar a slice pero este devolvera la longitud de los caracteres delimitados
+
+function exer8(num){
+    const exer8="Hola me llamo Rey y tengo 20 años "// esta no estoy seguro del por que no funciona
+    console.log(exer8.substr(4,5))
+}
+exer8()
+
+//9-replace- remplaza la string seleccionada por la nwe string que se usara 
+function exer9(text){
+    const exer9="Hola me llamo Rey y tengo 20 años "
+    console.log(exer9.replace("Rey","RAYO MACUIN"))// primera la que se va a remplzar y despues la nueva 
+}
+
+exer9()
+
+//10-indexOf(substring)- devuelve indice inical de un caracter especificado de la cadena /// tampoco me queda claro xd
+function exer10(text){
+    const exer10="Hola me llamo Rey y tengo 20 años "
+    console.log(exer10.indexOf("a"))
+}
+
+exer10()
+
+
+
+
+
+
+
+
+

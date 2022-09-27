@@ -1,0 +1,12 @@
+
+// includes() busca en la string un palbra y arrojas true o false
+
+function ejercicio1(){
+
+const Phrase="hola me LLAMO RAMON y tengo 43 años "
+const result=Phrase.includes("tengo")// dependiendo de si la paabra este en la variable phrase sera false o true
+
+console.log(result)
+}
+ 
+ejercicio1()

@@ -1,0 +1,33 @@
+
+// dentrto de un arreglo puede  aver mas areglos, y se toman como objetos/ 
+//se puede almacenar string y numeros // podemos guardar lo que queramos/// tiene la prodiedad .length y .sont 
+function arreglo(){
+const ages = [
+    30,
+    29,
+    50,
+    'Hola',
+    [1, 2, [4, 5]]
+    
+];
+
+//se puede cambiar un valor tomado el objeto  / ages[0]="hola"// se sutitye el arreglo 0
+ages[0]="hola"
+
+console.log(ages[4][2][1])// acede a solamente el 5 dentro del arreglo
+}
+
+arreglo()
+
+
+//se puede cambiar un valor crando una variable / const[0]="hola"// se sutitye el arreglo 0
+
+//objetos puede guardar carcteristicas// coche (objetos)-color, llantas, puertas , ventanas// se define con {}
+function objeto(){
+const user = { edad:30,
+    gen:"hombre" }
+
+    console.log(user.edad)}// aqui esta acediendo a la edad en un objeto
+
+    objeto()
+

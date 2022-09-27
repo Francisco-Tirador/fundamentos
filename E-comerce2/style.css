@@ -1,0 +1,27 @@
+body{
+    background-color: rgb(3, 36, 36);
+
+}
+
+
+ul{
+    display: flex;
+    justify-content:center;
+    background-color: rgb(67, 55, 39);
+}
+
+li{
+    display: inline-flex;
+    list-style: none;
+    background-color: royalblue;
+    padding:2%;
+    margin:10px ;
+}
+.fi_fi-sr-heart{
+    color:brown
+}
+.fa-circle-chevron-down{
+    width: 100px;
+    height: 150px;
+   
+}
